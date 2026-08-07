@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulheres na Tecnologia</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Poppins',sans-serif;
+        }
+
+        body{
+
+            background:#f4f4f4;
+            min-height:100vh;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            padding:40px;
+
+        }
+
+        .card{
+
+            width:1200px;
+            max-width:100%;
+
+            background:white;
+
+            display:grid;
+            grid-template-columns:350px 1fr;
+
+            border-radius:20px;
+
+            overflow:hidden;
+
+box-shadow:0 15px 40px rgba(0,0,0,.12);
+
+        }
+
+        .foto{
+
+            background:#efefef;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            padding:35px;
+
+        }
+
+        .foto img{
+
+            width:260px;
+            height:360px;
+
+            object-fit:cover;
+
+            border-radius:15px;
+
+            border:5px solid white;
+
+            box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+        }
+
+        .conteudo{
+
+            padding:45px;
+
+        }
+
+        h1{
+
+            font-size:42px;
+
+            color:#222;
+
+        }
+
+        .linha{
+
+            width:100px;
+     height:4px;
+
+            background:#333;
+
+            margin:20px 0 35px;
+
+            border-radius:30px;
+
+        }
+
+        .informacoes{
+
+            display:grid;
+
+            grid-template-columns:repeat(2,1fr);
+
+            gap:18px;
+
+            margin-bottom:35px;
+
+        }
+
+        .info{
+
+            background:#fafafa;
+
+            padding:18px;
+
+            border-radius:12px;
+
+            border:1px solid #dddddd;
+
+        }
+
+        .info h3{
+
+            font-size:15px;
+
+            color:#555;
+
+            margin-bottom:8px;
+
+        }
+
+        .info p{
+
+            color:#222;
+
+ font-weight:500;
+
+        }
+
+        h2{
+
+            color:#222;
+
+            margin-bottom:18px;
+
+        }
+
+        .bio{
+
+            background:#fafafa;
+
+            border:1px solid #ddd;
+
+            border-radius:15px;
+
+            padding:25px;
+
+            line-height:1.9;
+
+            text-align:justify;
+
+            color:#555;
+
+        }
+
+        @media(max-width:900px){
+
+            .card{
+
+                grid-template-columns:1fr;
+
+            }
+
+            .informacoes{
+
+                grid-template-columns:1fr;
+
+            }
+
+            .foto img{
+
+                width:220px;
+                height:300px;
+ }
+
+            h1{
+
+                font-size:32px;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="foto">
+
+        <img src="imagem.jpg" alt="Foto da personalidade">
+
+    </div>
+
+    <div class="conteudo">
+
+        <h1>judith kimble</h1>
+
+        <div class="linha"></div>
+
+        <div class="informacoes">
+
+            <div class="info">
+                <h3>📅 Data de nascimento</h3>
+                <p>24/04/1949</p>
+            </div>
+
+            <div class="info">
+                <h3>🌎 Nacionalidade</h3>
+                <p>EUA</p>
+            </div>
+
+            <div class="info">
+                <h3>💻 Área de atuação</h3>
+                <p>Estrutura e sinalização celular; Biologia do desenvolvimento; Expressão gênica e biologia do RNA; Biologia quantitativa.</p>
+            </div>
+ <div class="info">
+                <h3>🏆 Principal contribuição</h3>
+                <p> Kimble estuda a regulação molecular do desenvolvimento animal e contribuiu significativamente para a compreensão do nicho de células-tronco, da sinalização Notch, da sinalização Wnt e das redes pós-transcricionais, bem como da sua coordenação para governar a manutenção das células-tronco e a especificação do destino celular. Utilizando Caenorhabditis elegans como modelo, seu trabalho revelou fatores regulatórios, relações e mecanismos amplamente conservados.</p>
+            </div>
+
+        </div>
+
+        <h2>Biografia</h2>
+
+        <div class="bio">
+
+            Judith Kimble é Professora Vilas na Universidade de Wisconsin-Madison e Investigadora do Instituto Médico Howard Hughes (HHMI).
+Em 1983, ingressou no Departamento de Bioquímica da Universidade de Wisconsin-Madison, onde permanece desde então. Kimble é mais conhecida pela identificação de um nicho de células-tronco no nematóide C. elegans e pelas análises subsequentes de genes, moléculas, vias e redes que regulam o nicho de células-tronco, o destino das células-tronco e a determinação do sexo. Foi selecionada como investigadora do HHMI em 1994 e eleita para a Academia Nacional de Ciências em 1995. Ela tem servido à comunidade de pesquisa biomédica em diversas funções, mais recentemente como Presidente do Comitê Presidencial para a Medalha Nacional de Ciências e membro de um comitê recém-formado do Conselho Nacional de Pesquisa (NRC) que aborda questões cruciais para os pesquisadores da próxima geração.
+
+        </div>
+
+</div>
+
+</body>
+
+</html>
+

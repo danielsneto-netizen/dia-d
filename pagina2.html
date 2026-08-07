@@ -1,0 +1,267 @@
+ <!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulheres na Tecnologia</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Poppins',sans-serif;
+        }
+
+        body{
+
+            background:#f4f4f4;
+            min-height:100vh;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            padding:40px;
+
+        }
+
+        .card{
+
+            width:1200px;
+            max-width:100%;
+
+            background:white;
+
+            display:grid;
+            grid-template-columns:350px 1fr;
+
+            border-radius:20px;
+
+            overflow:hidden;
+
+            box-shadow:0 15px 40px rgba(0,0,0,.12);
+
+        }
+
+        .foto{
+
+            background:#efefef;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            padding:35px;
+
+        }
+
+        .foto img{
+
+            width:260px;
+            height:360px;
+
+            object-fit:cover;
+
+            border-radius:15px;
+
+            border:5px solid white;
+
+            box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+        }
+
+        .conteudo{
+
+            padding:45px;
+
+        }
+
+        h1{
+
+            font-size:42px;
+
+            color:#222;
+
+        }
+
+        .linha{
+
+            width:100px;
+            height:4px;
+
+            background:#333;
+
+            margin:20px 0 35px;
+
+            border-radius:30px;
+
+        }
+
+        .informacoes{
+
+            display:grid;
+
+            grid-template-columns:repeat(2,1fr);
+
+            gap:18px;
+
+            margin-bottom:35px;
+
+        }
+
+        .info{
+
+            background:#fafafa;
+
+            padding:18px;
+
+            border-radius:12px;
+
+            border:1px solid #dddddd;
+
+        }
+
+        .info h3{
+
+            font-size:15px;
+
+            color:#555;
+
+            margin-bottom:8px;
+
+        }
+
+        .info p{
+
+            color:#222;
+
+            font-weight:500;
+
+        }
+
+        h2{
+
+            color:#222;
+
+            margin-bottom:18px;
+
+        }
+
+        .bio{
+
+            background:#fafafa;
+
+            border:1px solid #ddd;
+
+            border-radius:15px;
+
+            padding:25px;
+
+            line-height:1.9;
+
+            text-align:justify;
+
+            color:#555;
+
+        }
+
+        @media(max-width:900px){
+
+            .card{
+
+                grid-template-columns:1fr;
+
+            }
+
+            .informacoes{
+
+                grid-template-columns:1fr;
+
+            }
+
+            .foto img{
+
+                width:220px;
+                height:300px;
+
+            }
+
+            h1{
+
+                font-size:32px;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="foto">
+
+        <img src="imagem.jpg" alt="Foto da personalidade">
+
+    </div>
+
+    <div class="conteudo">
+
+        <h1>June almeida
+</h1>
+
+        <div class="linha"></div>
+
+        <div class="informacoes">
+
+            <div class="info">
+                <h3>📅 Data de nascimento</h3>
+                <p>05/10/1930</p>
+            </div>
+
+            <div class="info">
+                <h3>🌎 nacionalidade</h3>
+                <p>escocia</p>
+            </div>
+
+            <div class="info">
+                <h3>💻 Área de atuação</h3>
+                <p>June Almeida atuou na área da virologia e microscopia eletrônica.
+
+</p>
+            </div>
+
+            <div class="info">
+                <h3>🏆 Principal contribuição</h3>
+                <p>June Almeida foi uma virologista pioneira que revolucionou o diagnóstico por imagem na medicina ao descobrir o primeiro coronavírus humano, fotografar o vírus da rubéola pela primeira vez e criar um método inovador de agregação viral com anticorpos.
+</p>
+            </div>
+
+        </div>
+
+        <h2>Biografia</h2>
+
+        <div class="bio">
+
+            June Almeida foi uma cientista escocesa que se tornou uma das maiores especialistas em microscopia eletrônica, mesmo sem ter cursado faculdade no início da carreira por falta de recursos financeiros. Trabalhando no Canadá e depois em Londres, ela aperfeiçoou técnicas que permitiram identificar vírus com mais precisão.
+Seu maior feito foi identificar o primeiro coronavírus humano, usando a técnica de coloração negativa. Inicialmente, sua descoberta foi desacreditada, mas depois ela provou que estava correta. Além disso, foi a primeira pessoa a visualizar o vírus da rubéola e contribuiu para pesquisas sobre HIV e hepatite B.
+Ao longo da carreira, recebeu reconhecimento por suas contribuições científicas, conquistando posteriormente os diplomas universitários que sempre desejou. Após sua morte, em 2007, seu trabalho ganhou destaque mundial durante a pandemia de Covid-19, quando suas técnicas foram fundamentais para identificar o novo coronavírus. Hoje, June Almeida é lembrada como um exemplo de determinação, inovação e importante contribuição para a ciência.
+
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

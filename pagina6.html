@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulheres na Tecnologia</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Poppins',sans-serif;
+        }
+
+        body{
+
+            background:#f4f4f4;
+            min-height:100vh;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            padding:40px;
+
+        }
+
+        .card{
+
+            width:1200px;
+            max-width:100%;
+
+            background:white;
+
+            display:grid;
+            grid-template-columns:350px 1fr;
+
+            border-radius:20px;
+
+            overflow:hidden;
+
+            box-shadow:0 15px 40px rgba(0,0,0,.12);
+
+        }
+
+        .foto{
+
+            background:#efefef;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            padding:35px;
+
+        }
+
+        .foto img{
+
+            width:260px;
+            height:360px;
+
+            object-fit:cover;
+
+            border-radius:15px;
+
+            border:5px solid white;
+
+            box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+        }
+
+        .conteudo{
+
+            padding:45px;
+
+        }
+
+        h1{
+
+            font-size:42px;
+
+            color:#222;
+
+        }
+
+        .linha{
+
+            width:100px;
+            height:4px;
+
+            background:#333;
+
+            margin:20px 0 35px;
+
+            border-radius:30px;
+
+        }
+
+        .informacoes{
+
+            display:grid;
+
+            grid-template-columns:repeat(2,1fr);
+
+            gap:18px;
+
+            margin-bottom:35px;
+
+        }
+
+        .info{
+
+            background:#fafafa;
+
+            padding:18px;
+
+            border-radius:12px;
+
+            border:1px solid #dddddd;
+
+        }
+
+        .info h3{
+
+            font-size:15px;
+
+            color:#555;
+
+            margin-bottom:8px;
+
+        }
+
+        .info p{
+
+            color:#222;
+
+            font-weight:500;
+
+        }
+
+        h2{
+
+            color:#222;
+
+            margin-bottom:18px;
+
+        }
+
+        .bio{
+
+            background:#fafafa;
+
+            border:1px solid #ddd;
+
+            border-radius:15px;
+
+            padding:25px;
+
+            line-height:1.9;
+
+            text-align:justify;
+
+            color:#555;
+
+        }
+
+        @media(max-width:900px){
+
+            .card{
+
+                grid-template-columns:1fr;
+
+            }
+
+            .informacoes{
+
+                grid-template-columns:1fr;
+
+            }
+
+            .foto img{
+
+                width:220px;
+                height:300px;
+
+            }
+
+            h1{
+
+                font-size:32px;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="foto">
+
+        <img src="imagem.jpg" alt="Foto da personalidade">
+
+    </div>
+
+    <div class="conteudo">
+
+        <h1>Maria goeppert mayer</h1>
+
+        <div class="linha"></div>
+
+        <div class="informacoes">
+
+            <div class="info">
+                <h3>📅 Data de nascimento</h3>
+                <p>28/06/1906</p>
+            </div>
+
+            <div class="info">
+                <h3>🌎 Nacionalidade</h3>
+                <p>Alemanha</p>
+            </div>
+
+            <div class="info">
+                <h3>💻 Área de atuação</h3>
+                <p>Durante a maior parte de sua carreira, Maria Goeppert Mayer trabalhou "apenas pelo prazer de fazer física", sem remuneração, status ou cargo permanente. Ela só se tornou professora titular aos 58 anos. Mesmo assim, fez contribuições importantes para o crescente entendimento da física nuclear, incluindo o revolucionário modelo de camadas nucleares.
+</p>
+            </div>
+
+            <div class="info">
+                <h3>🏆 Principal contribuição</h3>
+                <p>Maria Goeppert Mayer foi uma física teórica que desenvolveu o modelo de camadas do núcleo atômico (nuclear shell model), em 1949. Esse modelo mostrou que prótons e nêutrons estão organizados em camadas de energia dentro do núcleo do átomo, explicando por que alguns núcleos são mais estáveis do que outros. Essa descoberta revolucionou a física nuclear e contribuiu para avanços na pesquisa sobre a estrutura dos átomos, na energia nuclear e em outras áreas da física. Por esse trabalho, ela recebeu o Prêmio Nobel de Física em 1963.</p>
+            </div>
+
+        </div>
+
+        <h2>Biografia</h2>
+
+        <div class="bio">
+
+           Maria Goeppert Mayer nasceu em 28 de junho de 1906, em Katowice, que na época fazia parte do Império Alemão (atualmente na Polônia). Estudou Física na Universidade de Göttingen, onde concluiu seu doutorado em 1930. No mesmo ano, mudou-se para os Estados Unidos com o marido, o químico Joseph Edward Mayer.
+Ao longo de sua carreira, trabalhou em universidades e centros de pesquisa, como a Universidade de Chicago e o Argonne National Laboratory. Tornou-se uma das mais importantes físicas do século XX ao desenvolver o modelo de camadas do núcleo atômico, trabalho que lhe rendeu o Prêmio Nobel de Física em 1963. Foi apenas a segunda mulher da história a receber esse prêmio na área de Física. Maria Goeppert Mayer faleceu em 20 de fevereiro de 1972, em San Diego, Califórnia.
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
